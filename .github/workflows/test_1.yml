@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -  name: Hola Mundo
+    -  name: HolaMundo
        run: echo "Hola mundo"
 
     -  name: touch file
