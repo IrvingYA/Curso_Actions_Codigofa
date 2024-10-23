@@ -27,6 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: hola
     steps:
-    - name: LS
+    - name: Prueba
       run: ls -al
 
