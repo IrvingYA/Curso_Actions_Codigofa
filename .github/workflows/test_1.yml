@@ -7,7 +7,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -  name: HolaMundo
+    - name: Hola Mundo
+      run: echo "Hola mundo"
+
+    -  name: Hola Mundo
+
        run: echo "Hola mundo"
 
     -  name: touch file
@@ -25,3 +29,4 @@ jobs:
     steps:
     - name: LS
       run: ls -al
+
